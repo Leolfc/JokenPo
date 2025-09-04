@@ -13,8 +13,9 @@ html{
   background-repeat: no-repeat;
 }
 body {
-width: 50%;
+width: 100%;
 margin: 50px auto;
+height: 100vh;
 
 }
 h1 {
@@ -78,4 +79,9 @@ button {
 
 .computerScore{
   color: red;
+}
+
+.result{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
 }
