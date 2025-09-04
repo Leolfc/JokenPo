@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html{
+    background-image: url("./assets/pexels-cari-cinnamon-tea-2155247743-33673049.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body {
+width: 50%;
+margin: 50px auto;
+
+}
+h1 {
+  font-family: "Libertinus Keyboard", system-ui;
+  font-weight: bold;
+
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+padding: 10px;
+  flex-direction: column;
+  gap:40px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: rgb(247, 240, 240);
+border-radius: 10px;
+
+}
+@media screen and (max-width: 600px) {
+  body {
+    width: 80%;
+    opacity: 0.9;
+    text-align: center;
+  }
+  h1{
+    font-size: 40px;
+  }
+  
+}
+.container-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.container-buttons button:nth-child(1){
+  background-color: purple;
+}
+.container-buttons button:nth-child(2){
+  background-color: rgb(252, 18, 18);
+}
+.container-buttons button:nth-child(3){
+  background-color: rgb(6, 230, 211);
+}
+button {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border:none; 
+  font-size: 30px;
+}
+
+.yourScore{
+  color: blue;
+}
+
+.computerScore{
+  color: red;
+}
